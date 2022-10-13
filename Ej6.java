@@ -7,7 +7,6 @@
 import java.util.Scanner;
 public class Ej6 {
     public static void main(String[] args) {
-        try {
             Scanner sc = new Scanner (System.in);
         System.out.println("Ingrese la base");
         double length = sc.nextDouble();
@@ -16,10 +15,6 @@ public class Ej6 {
         System.out.println("El area del triangulo es " + (length * width)/2);
     
         sc.close();
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");
-        }
         
     }
 }

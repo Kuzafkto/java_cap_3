@@ -9,7 +9,7 @@ introducidos por teclado.
 import java.util.Scanner;
 public class Ej4{
     public static void main(String[] args) {
-        try {
+     
             Scanner sc= new Scanner (System.in);
         System.out.println("Ingrese un número");
         int x = sc.nextInt();
@@ -21,10 +21,7 @@ public class Ej4{
         System.out.println( x +" / " + y + " = " + x/y);
 
         sc.close();
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");
-        }
+        
         
     }
 }

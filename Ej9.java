@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.lang.Math;
 public class Ej9{
     public static void main(String[] args) {
-        try {
+        
             Scanner sc = new Scanner (System.in);
 
         System.out.println("Ingrese la altura del cono");
@@ -19,10 +19,7 @@ public class Ej9{
         double v = (1.0/3.0)*Math.PI*Math.pow(r,2)*h;
         System.out.printf("El volumen del cono es de 1/3 * " + " pi * " + r+ "²" + " * "+ h + " = " + v );
         sc.close();
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");
-        }
+        
         
     }
 }

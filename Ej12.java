@@ -21,7 +21,7 @@ Para tener un 7 en el trimestre necesitas sacar un 6.33 en el segundo examen.
 import java.util.Scanner;
 public class Ej12{
  public static void main(String[] args) {
-   try {
+  
       Scanner sc = new Scanner (System.in);
       System.out.println("Ingrese la nota del primer examen");
       double firstex = sc.nextFloat();
@@ -31,10 +31,5 @@ public class Ej12{
   
       System.out.println("Para tener un " + desiredGrade+ " en el trimestre necesitas sacar un " +  needednote + " en el examen");
       sc.close(); 
-   } catch (Exception e) {
-       System.out.println("Error! ");
-       System.out.println("Por favor, ejecute el código de nuevo");
-   }
-   
  }
 }
