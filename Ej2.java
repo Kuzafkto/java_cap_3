@@ -13,7 +13,7 @@ public class Ej2{
             Scanner sc = new Scanner (System.in);
             System.out.println("Ingrese la cantidad de euros a convertir en pesetas");
             double euros = sc.nextFloat();
-            System.out.println(euros + " euros a pesetas son " + Math.round(euros*166.38) + " pesetas");
+            System.out.println(euros + " euros a pesetas son " + Math.round(euros*166,38) + " pesetas");
             sc.close();
         
     }

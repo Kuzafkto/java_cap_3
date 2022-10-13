@@ -10,10 +10,10 @@ import java.lang.Math;
 public class Ej7{
     public static void main(String[] args) {
         
-            Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner (System.in);
         System.out.println("Ingrese la base imponible");
         double fact = sc.nextDouble();
-        System.out.println("La factura en base a la base imponible de " + fact + " euros es " + Math.round(fact*1.06));
+        System.out.println("La factura en base a la base imponible de " + fact + " euros es " + Math.round(fact + fact*0.21));
         sc.close();
         
     }

@@ -13,7 +13,7 @@ public static void main(String[] args) {
     int x = sc.nextInt();
     System.out.println("Ingrese otro número");
     int y = sc.nextInt();
-    System.out.println(x + " X " + y+ " = "+ x*y);
+    System.out.printf("%d*%d",x,y,x*y);
     sc.close();
 }
 }   

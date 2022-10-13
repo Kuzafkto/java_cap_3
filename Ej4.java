@@ -12,13 +12,17 @@ public class Ej4{
      
             Scanner sc= new Scanner (System.in);
         System.out.println("Ingrese un número");
-        int x = sc.nextInt();
+        float x = sc.nextFloat();
         System.out.println("Ingrese otro número");
-        int y = sc.nextInt();
-        System.out.println( x + " + " + y + " = "+ x+y );
-        System.out.println( x +" - " + y + " = " + (x-y));
-        System.out.println( x +" * " + y + " = " + x*y);
-        System.out.println( x +" / " + y + " = " + x/y);
+        float y = sc.nextFloat();
+        System.out.printf( "x + y = %.1f \n",x+y);
+        System.out.printf( "x - y = %.1f \n",x-y);
+        System.out.printf( "x * y = %.1f \n",x*y);
+        if (y!=0){
+            System.out.printf( "x / y = %.f \n",x/y);
+        }else{
+            System.out.println("No se puede dividir por 0");
+        }
 
         sc.close();
         
