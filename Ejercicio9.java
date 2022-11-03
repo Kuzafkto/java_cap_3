@@ -7,7 +7,7 @@ Escribe un programa que calcule el volumen de un cono según la fórmula V =
 
 import java.util.Scanner;
 import java.lang.Math;
-public class Ej9{
+public class Ejercicio9{
     public static void main(String[] args) {
         
             Scanner sc = new Scanner (System.in);

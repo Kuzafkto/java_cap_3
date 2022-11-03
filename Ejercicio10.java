@@ -6,7 +6,7 @@
  */
 
 import java.util.Scanner;
-public class Ej10{
+public class Ejercicio10{
     public static void main(String[] args) {
             Scanner sc = new Scanner (System.in);
             System.out.println("Ingrese la cantidad de megabits a pasar a kilobits");

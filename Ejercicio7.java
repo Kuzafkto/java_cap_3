@@ -7,7 +7,7 @@ imponible.
 
 import java.util.Scanner;
 import java.lang.Math;
-public class Ej7{
+public class Ejercicio7{
     public static void main(String[] args) {
         
         Scanner sc = new Scanner (System.in);

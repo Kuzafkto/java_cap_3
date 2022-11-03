@@ -6,7 +6,7 @@ las horas trabajadas, a razón de 12 euros la hora.
  */
 
 import java.util.Scanner;
-public class Ej8{
+public class Ejercicio8{
     public static void main(String[] args) {
 
         

@@ -7,7 +7,7 @@ convertir debe ser introducida por teclado.
 
 import java.util.Scanner;
 import java.lang.Math;
-public class Ej3{
+public class Ejercicio3{
     public static void main(String[] args) {
 
         

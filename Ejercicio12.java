@@ -19,7 +19,7 @@ Para tener un 7 en el trimestre necesitas sacar un 6.33 en el segundo examen.
  */
 
 import java.util.Scanner;
-public class Ej12{
+public class Ejercicio12{
  public static void main(String[] args) {
   
       Scanner sc = new Scanner (System.in);
